@@ -1,58 +1,19 @@
 import React from "react";
 import "./App.css";
+import { Route, Link } from "react-router-dom";
 
-import Button from "antd/es/button";
-import { Layout } from "antd";
-import { Typography } from "antd";
-import { Carousel } from "antd";
-
-import Face3d from "./model.jpg";
-import CowImg from "./AmagerFaelled_2.jpg";
-
-const { Header, Footer, Sider, Content } = Layout;
-const { Title } = Typography;
+import Home from "./Home";
+import Portfolio from "./Portfolio";
+import Contact from "./Contact";
+import NavigationBar from "./NavigationBar";
 
 function App() {
   return (
     <div className="App">
-      <Layout>
-        <Carousel autoplay>
-          <div>
-            <img
-              src={Face3d}
-              className="photoCenter"
-              alt="3d model of a face"
-            ></img>
-          </div>
-          <div>
-            <img
-              src={CowImg}
-              className="photoCenter"
-              alt="Highlander cow photography"
-            ></img>
-          </div>
-          <div>
-            <img
-              src={Face3d}
-              className="photoCenter"
-              alt="3d model of a face"
-            ></img>
-          </div>
-          <div>
-            <img
-              src={CowImg}
-              className="photoCenter"
-              alt="Highlander cow photography"
-            ></img>
-          </div>
-        </Carousel>
-        <Layout>
-          <Layout>
-            <Content>Discover my art and projectwork.</Content>
-          </Layout>
-        </Layout>
-        <Header>Portfolio</Header>
-      </Layout>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/portfolio" component={Portfolio} />
+      <Route exact path="/contact" component={Contact} />
+      <NavigationBar />
     </div>
   );
 }
