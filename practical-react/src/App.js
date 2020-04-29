@@ -1,14 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import TodoList from "./TodoList.js";
+import uuidv4 from "uuid/v4";
 
 function App() {
-  const [todo, setTodos] = useState(["Todo 1", "Todo 2"]);
   return (
     <>
-      <TodoList todos={todos} />
-      <input type="text" />
-      <button>Add Todo</button>
-      <button>Clear Completed Todos</button>
+      <TodoList todos />
+      <button> Add Todo</button>
       <div>0 left </div>
     </>
   );
