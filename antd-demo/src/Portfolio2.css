@@ -1,0 +1,42 @@
+@import "~antd/dist/antd.css";
+
+.photo100prc {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 100%;
+}
+
+.textAlignRight {
+  position: absolute;
+
+  text-align: justify;
+  top: 30%;
+  left: 0;
+  height: 30%;
+  width: 85%;
+}
+
+.textAlignLeft {
+  position: absolute;
+
+  text-align: justify;
+  top: 30%;
+  left: 10%;
+  height: 30%;
+  width: 85%;
+}
+
+/* albo to w <div
+style={{
+              position: "absolute",
+              textAlign: "left",
+              top: "30%",
+              left: "30%",
+              height: "30%",
+              width: "100%",
+              margin: "-15% 0 0 -25%",
+            }}
+    >
+*/

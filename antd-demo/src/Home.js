@@ -1,7 +1,5 @@
 import React from "react";
-
-import Portfolio from "./Portfolio";
-import Contact from "./Contact";
+import { Row, Col } from "antd";
 
 function Home() {
   return (
