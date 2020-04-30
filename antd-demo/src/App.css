@@ -37,15 +37,8 @@
   color: #ebdbd1;
 }
 
-> .code-box-demo > div > .ant-layout {
-  margin-bottom: 48px;
-}
-> .code-box-demo > div > .ant-layout:last-child {
-  margin: 0;
-}
-
 .App-link {
-  color: #61dafb;
+  color: #181b1b;
 }
 
 @keyframes App-logo-spin {
