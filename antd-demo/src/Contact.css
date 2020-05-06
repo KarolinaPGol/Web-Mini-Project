@@ -1,0 +1,32 @@
+@import "~antd/dist/antd.css";
+
+@font-face {
+    src: url(fonts/Billabong.ttf);
+    font-family: Billa; 
+}
+
+@font-face {
+    src: url(fonts/MyriadProBold.otf);
+    font-family: Myriad; 
+}
+
+.InstaText {
+    font-size: 25px;
+    line-height: 100px;
+    font-family: Billa;
+}
+
+.linkedInText {
+    font-size: 25px;
+    line-height: 100px;
+    font-family: Myriad;
+}
+
+
+.photo100prc {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+
