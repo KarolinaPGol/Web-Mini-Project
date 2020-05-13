@@ -6,27 +6,36 @@
 }
 
 @font-face {
-    src: url(fonts/MyriadProBold.otf);
+    src: url(fonts/MyriadProBold.ttf);
     font-family: Myriad; 
 }
 
 .InstaText {
     font-size: 25px;
-    line-height: 100px;
+    line-height: 80px;
     font-family: Billa;
 }
 
 .linkedInText {
-    font-size: 25px;
-    line-height: 100px;
+    font-size: 20px;
+    line-height: 80px;
     font-family: Myriad;
 }
 
+.bgImage {
+    text-align: center;
+    background-image: url("./img/prismatic.jpg");
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+}
 
-.photo100prc {
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-  }
+.cards {
+    background: rgba(0, 0, 0, 0);
+    position: relative;
+    padding-top: 200px;
+}
 
