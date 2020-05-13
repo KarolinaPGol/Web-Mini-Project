@@ -1,6 +1,12 @@
 @import "~antd/dist/antd.css";
 
+@font-face {
+  font-family: "Playfair Display SC", serif;
+  src: url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap");
+}
+
 .photo100prc {
+  position: fixed;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -8,11 +14,15 @@
   height: 100%;
 }
 
+.imageThumbnail {
+  position: relative;
+  width: 90%;
+}
+
 .textAlignRight {
   position: absolute;
 
   text-align: justify;
-  top: 30%;
   left: 0;
   height: 30%;
   width: 85%;
@@ -20,23 +30,13 @@
 
 .textAlignLeft {
   position: absolute;
-
   text-align: justify;
-  top: 30%;
   left: 10%;
   height: 30%;
   width: 85%;
 }
 
-/* albo to w <div
-style={{
-              position: "absolute",
-              textAlign: "left",
-              top: "30%",
-              left: "30%",
-              height: "30%",
-              width: "100%",
-              margin: "-15% 0 0 -25%",
-            }}
-    >
-*/
+.buttonUnderText {
+  position: relative;
+  top: 50px;
+}
