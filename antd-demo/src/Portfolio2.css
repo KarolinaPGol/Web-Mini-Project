@@ -36,7 +36,40 @@
   width: 85%;
 }
 
+.textAlignCenter {
+  text-align: center;
+}
+
 .buttonUnderText {
   position: relative;
   top: 50px;
+}
+
+.modalS {
+  background-color: rgba(0, 0, 0, 0.25);
+  top: 100px;
+  padding: 20%;
+  width: 90%;
+}
+
+.close {
+  color: Black;
+  float: right;
+}
+
+.close:hover {
+  color: cyan;
+  cursor: pointer;
+}
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 180px;
+  line-height: 160px;
+  background: #fcfcfc00;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: rgb(241, 0, 0);
 }
