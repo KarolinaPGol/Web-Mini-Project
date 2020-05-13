@@ -39,7 +39,7 @@ function NavigationBar() {
         <Col span={6}>
           <h1>
             <NavLink to="/contact" style={{ color: "black" }}>
-              CONTACT
+              CONTACT/SOCIAL MEDIA
             </NavLink>
           </h1>
         </Col>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Typography } from 'antd';
-import { Card, Col, Row, Space } from 'antd';
+import { Popover, Col, Row } from 'antd';
 
 import "./Contact.css";
 
@@ -12,49 +12,45 @@ import bckGround from "./img/prismatic.jpg";
 
 const { Title } = Typography;
 
+const instaContent = (
+<div className="InstaText">
+<h1><a href="https://www.instagram.com/"> Instagram</a></h1>
+</div>
+
+);
 function Contact() {
   return (
       <div>
       <div class="bgImage"></div>
       <div class="cards">
-      <Row gutter={16} justify='center'>
+      <Row justify='center'>
       <Col span={6}>
+        <Popover content={"+45 XX XX XX XX"} title="Telephone number">
           <img alt="Phone" width="60%" src={phone}/>
-          <h1>+45 XX XX XX XX</h1>
-          
+        </Popover> 
       </Col>
 
       <Col span={6}>
-
+        <Popover content={"portfolio@gmail.com"} title="Email address">
           <img alt="Email" width="60%" src={mail} />
-          <h1>portfolio@gmail.com</h1>
-
+        </Popover> 
       </Col>
 
       <Col span={6}>
-
-          <a href="https://www.instagram.com/"> 
+        <a href="https://www.instagram.com/">
           <img alt="Social media networking" width="60%" src={instaIcon} />
-          </a>
-          <div className="InstaText">
-          <h1><a href="https://www.instagram.com/"> Instagram account </a></h1>
-          </div>
-
+        </a>
       </Col>
       <Col span={6}>
-
-          <a href="https://www.linkedin.com/">
+        <a href="https://www.linkedin.com/">
           <img alt="Social media networking" width="60%" src={linkedinIcon} />
-          </a>
-          <div className="linkedInText">
-          <h1><a href="https://www.linkedin.com/"> LinkedIn account </a></h1>
-          </div>
-
+        </a>
       </Col>
       </Row>
       </div>
       </div>
   );
 }
+
 
 export default Contact;
