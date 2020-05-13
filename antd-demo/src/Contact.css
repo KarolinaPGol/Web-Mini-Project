@@ -1,41 +1,40 @@
 @import "~antd/dist/antd.css";
 
 @font-face {
-    src: url(fonts/Billabong.ttf);
-    font-family: Billa; 
+  src: url(fonts/Billabong.ttf);
+  font-family: Billa;
 }
 
 @font-face {
-    src: url(fonts/MyriadProBold.ttf);
-    font-family: Myriad; 
+  src: url(fonts/MyriadProBold.ttf);
+  font-family: Myriad;
 }
 
 .InstaText {
-    font-size: 25px;
-    line-height: 80px;
-    font-family: Billa;
+  font-size: 25px;
+  line-height: 80px;
+  font-family: Billa;
 }
 
 .linkedInText {
-    font-size: 20px;
-    line-height: 80px;
-    font-family: Myriad;
+  font-size: 20px;
+  line-height: 80px;
+  font-family: Myriad;
 }
 
 .bgImage {
-    text-align: center;
-    background-image: url("./img/prismatic.jpg");
-    position: fixed;
-    min-width: 100%;
-    min-height: 100%;
-    background-size: cover;
-    background-position: center;
-    opacity: 0.7;
+  text-align: center;
+  background-image: url("./img/prismatic.jpg");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7;
 }
 
 .cards {
-    background: rgba(0, 0, 0, 0);
-    position: relative;
-    padding-top: 200px;
+  background: rgba(0, 0, 0, 0);
+  position: relative;
+  padding-top: 200px;
 }
-
