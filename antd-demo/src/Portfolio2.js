@@ -103,7 +103,7 @@ function Portfolio2() {
           </div>
         </Col>
       </Row>
-      <Row>
+      <Row> 
         <Col span={8}>
           <div className="textAlignLeft" style={{ top: "20%" }}>
             <h2>Snail Photography</h2>
